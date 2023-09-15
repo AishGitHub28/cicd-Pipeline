@@ -35,6 +35,10 @@ public with sharing class AccountServiceLayer {
         
     }
 
+    public static void validateProduct(){
+        //impl
+    }
+
     /**
      * @description Changes the account's Shipping Street field to a hardcoded
      * value. You should do this kind of work in a before trigger, but this is a
